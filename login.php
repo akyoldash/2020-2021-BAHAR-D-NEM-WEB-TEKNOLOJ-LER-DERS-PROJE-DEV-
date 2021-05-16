@@ -20,45 +20,63 @@
 	<title>Web Teknoloji Projesi</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm fixed-top 
-	bg-info navbar-white">
-		<div class="container">
-			<a href="anasayfa.html" class="navbar-brand text-white">  		  
-	  		   Mazhar'ın Sayfası
-	      	</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-				<span class="navbar-toggler-icon"><i class="fas fa-ellipsis-v"></i></span>
-			</button>
-			<div id="navbarCollapse" class="collapse navbar-collapse">
-				<ul class="navbar-nav ml-auto ">
-					<li class="nav-item">
-						<a href="anasayfa.html" class="nav-link active  text-white">
-	      				Anasayfa
-	      				</a></li>
-					<li class="nav-item">
-						<a href="ozgecmis.html" class="nav-link active  text-white">
-	      				Özgeçmiş
-	      				</a></li>
-	      			<li class="nav-item">
-						<a href="yalovam.html" class="nav-link active  text-white">
-	      				İstanbul
-	      				</a></li>	
-					<li class="nav-item">
-						<a href="mirasimiz.html" class="nav-link active  text-white">
-	      				Mirasımız
-	      				</a></li>
-	      			<li class="nav-item">
-						<a href="iletisim.html" class="nav-link active  text-white">
-	      				İletişim
-	      				</a></li>
-	      			<li class="nav-item">
-						<a href="login.php" class="nav-link active  text-white">
-	      				<i class="fas fa-sign-in-alt"></i>
-	      				</a></li>					
-				</ul>
-			</div>
-		</div>
-	</nav>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container">
+        <a href="anasayfa.html" class="navbar-brand text-white">
+          Mazhar'ın Sayfası
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div id="navbarMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="anasayfa.html" class="nav-link active text-white">
+                Anasayfa
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="ozgecmis.html" class="nav-link active text-white">
+                Özgeçmiş
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="istanbul.html" class="nav-link active text-white">
+                Şehrim
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="mirasimiz.html" class="nav-link active text-white">
+                Mirasımız
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="iletisim.html" class="nav-link active text-white">
+                İletişim
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="login.php" class="nav-link active text-white">
+                <i class="fas fa-sign-in-alt"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 	<header>
 		<div class="bg-info text-light jumbotron balikcilar-jumbotron">
 			<div class="container">
@@ -77,11 +95,11 @@
 			<form action="git-Login.php" method="POST">
 				<div class="form-group">
 					<label for="email">Email</label>
-					<input type="text" name="email" class="form-control" placeholder="Email '123@sakarya.edu.tr'" required="required">
+					<input type="text" name="email" class="form-control mail" placeholder="Email '123@sakarya.edu.tr'" required="required">
 				</div>
 				<div class="form-group">
 					<label for="password">Password</label>
-					<input type="password" name="password" class="form-control" placeholder="Şifre '123'" required="required">
+					<input type="password" name="password" class="form-control pass" placeholder="Şifre '123'" required="required">
 				</div>
 				<button class="btn btn btn-info" type="submit">Gönder</button>
 				<br><br><br>

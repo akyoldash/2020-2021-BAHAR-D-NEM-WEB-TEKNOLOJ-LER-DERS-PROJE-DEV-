@@ -1,4 +1,7 @@
 .navbar-toggler{
     color:white;
 }
+.form-control{
+    width: 300px;
+}
 
