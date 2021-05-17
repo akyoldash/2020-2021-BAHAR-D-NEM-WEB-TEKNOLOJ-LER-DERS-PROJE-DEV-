@@ -20,7 +20,7 @@
 	<title>Web Teknoloji Projesi</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <div class="container">
         <a href="anasayfa.html" class="navbar-brand text-white">
           Mazhar'ın Sayfası

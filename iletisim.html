@@ -37,7 +37,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top">
       <div class="container">
         <a href="anasayfa.html" class="navbar-brand text-white">
           Mazhar'ın Sayfası
@@ -64,6 +64,12 @@
             <li class="nav-item">
               <a href="ozgecmis.html" class="nav-link active text-white">
                 Özgeçmiş
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="ilgi_alanlarim.html" class="nav-link active text-white">
+                İlgi Alanlarım
               </a>
             </li>
 
@@ -95,6 +101,7 @@
       </div>
     </nav>
 
+    <br><br>
     <header>
       <div class="bg-info text-white jumbotron">
         <div class="container">
@@ -108,7 +115,7 @@
     <main>
       <div class="container">
         <form action="git.html" name="Form" onsubmit="return control()">
-          <div class="form-group">
+          <div class="form-group isim">
             <label for="name">İsim</label>
             <input
               type="text"
@@ -119,7 +126,7 @@
             <small class="form-text text-muted">Zorunlu alan</small>
           </div>
 
-          <div class="form-group">
+          <div class="form-group email">
             <label for="email">Email</label>
             <input
               type="text"
@@ -192,5 +199,7 @@
         }
       }
     </script>
+
+
   </body>
 </html>

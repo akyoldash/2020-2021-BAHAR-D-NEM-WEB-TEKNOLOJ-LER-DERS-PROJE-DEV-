@@ -28,7 +28,7 @@
 <body>
 
 
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <div class="container">
         <a href="anasayfa.html" class="navbar-brand text-white">
           Mazhar'ın Sayfası
@@ -55,6 +55,12 @@
             <li class="nav-item">
               <a href="ozgecmis.html" class="nav-link active text-white">
                 Özgeçmiş
+              </a>
+            </li>
+
+			<li class="nav-item">
+              <a href="ilgi_alanlarim.html" class="nav-link active text-white">
+                İlgi Alanlarım
               </a>
             </li>
 
