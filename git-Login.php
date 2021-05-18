@@ -114,7 +114,7 @@
 
 		<div class="container">
 			
-			<?php 
+			<?php
 
 				include("kullanicilar.php");
 
@@ -134,8 +134,7 @@
 					echo ("!!!TEKRAR DENEYİN!!!");
 					header("Refresh: 1; url=login.php");
 				}
-			
-			?>
+		?>
 			
 		</div>
 
