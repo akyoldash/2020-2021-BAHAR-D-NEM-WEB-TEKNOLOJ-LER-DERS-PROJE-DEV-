@@ -36,3 +36,17 @@ tr:nth-child(even) {
   max-width: 100%;
   height: auto;
 }
+
+.film {
+  height: auto;
+  min-height: 100%;
+  margin:0;
+  padding: 5%;
+  border-spacing: 20px;
+  border: black;
+  font-family:'Source Sans Pro';
+  font-weight: 400;
+  
+  box-sizing: border-box;
+  background-color:rgb(200, 211, 211);
+}
