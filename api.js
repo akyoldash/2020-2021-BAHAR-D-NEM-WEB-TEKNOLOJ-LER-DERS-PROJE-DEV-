@@ -22,14 +22,16 @@ function fetchData() {
       console.log(data.overview);
       document
         .querySelector("#film")
-        .insertAdjacentHTML("afterbegin", `<h1 style="font-family: 'Courier New', Courier, monospace;">YILDIZLARARASI</h1> <h3>Özet</h3> <p>${data.overview}</p> <br> <a href="${data.homepage}">Film anasayfası</a>`);
+        .insertAdjacentHTML("afterbegin", `<div class="poster-sinopsis">
+        <h1 style="font-family: 'Courier New', Courier, monospace;">YILDIZLARARASI</h1> <h3>Özet</h3> <p>${data.overview}</p> <br> <a href="${data.homepage}">Film anasayfası</a>
+        `);
 
       document
         .querySelector("#film")
         .insertAdjacentHTML(
           "beforeend",
+          `<img src="https://image.tmdb.org/t/p/w500/${data.poster_path}" alt="Yıldızlararası film   posteri" class="film-poster"></div>
           `
-          <img src="https://image.tmdb.org/t/p/w500/${data.poster_path}" alt="Yıldızlararası film posteri">`
         );
     })
     .catch((error) => {
