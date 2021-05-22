@@ -7,8 +7,8 @@
 
 .row {
   display: flex;
-  margin-left:-5px;
-  margin-right:-5px;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 .column {
@@ -23,7 +23,8 @@ table {
   border: 1px solid #ddd;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 16px;
 }
@@ -38,15 +39,14 @@ tr:nth-child(even) {
   width: 100%;
   max-width: 100%;
 
-  
   padding: 5%;
   border-spacing: 100px;
   border: black;
-  font-family:'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-weight: 400;
-  
+
   box-sizing: border-box;
-  background-color:rgb(200, 211, 211);
+  background-color: rgb(200, 211, 211);
 }
 
 .sinopsis {
@@ -60,16 +60,38 @@ tr:nth-child(even) {
   padding: 3%;
   border-radius: 5%;
   font-size: 120%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 120%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 img {
-  max-width: 100%;
   height: auto;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.film img {
+  float: left;
+  max-width: 18%;
+  margin-right: 5%;
+}
+
+.film {
+  font-size: 120%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.video {
+  margin-left: 23%;
 }
 
 body {
   background-color: azure;
 }
-
-
