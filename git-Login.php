@@ -112,7 +112,7 @@
 	
 	<main>
 
-		<div class="container">
+		<div class="container" style="padding: %10;font-size: 130%">
 			
 			<?php
 
@@ -130,7 +130,7 @@
 			
 				else 
 				{
-					echo("Kullancı Adı veya Şifre Yanlış.<br>");
+					echo("Kullancı adı veya şifre yanlış.<br>");
 					echo ("Lütfen tekrar deneyiniz");
 					header("Refresh: 1; url=login.php");
 				}

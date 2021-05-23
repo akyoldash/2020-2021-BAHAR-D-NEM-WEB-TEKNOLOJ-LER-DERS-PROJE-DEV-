@@ -20,7 +20,7 @@
 	<title>Web Teknoloji Projesi</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-sm bg-dark fixed-top">
       <div class="container">
         <a href="anasayfa.html" class="navbar-brand text-white">
           Mazhar'ın Sayfası
@@ -51,6 +51,12 @@
             </li>
 
             <li class="nav-item">
+              <a href="ilgi_alanlarim.html" class="nav-link active text-white">
+                İlgi Alanlarım
+              </a>
+            </li>
+
+            <li class="nav-item">
               <a href="istanbul.html" class="nav-link active text-white">
                 Şehrim
               </a>
@@ -76,7 +82,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+  </nav>
     <br><br>
 	<header>
 		<div class="bg-info text-light jumbotron balikcilar-jumbotron">
@@ -102,7 +108,7 @@
 					<label for="password">Password</label>
 					<input type="password" name="password" class="form-control pass" placeholder="Şifre '1234'" required="required">
 				</div>
-				<button class="btn btn btn-info" type="submit">Gönder</button>
+				<button class="btn btn btn-info" type="submit">Giriş</button>
 				<br><br><br>
 			</form>
 		</div>
