@@ -22,7 +22,7 @@
 <body>
   <nav class="navbar navbar-expand-sm bg-dark fixed-top">
       <div class="container">
-        <a href="anasayfa.html" class="navbar-brand text-white">
+        <a href="http://webteknolojileriproje.infinityfreeapp.com" class="navbar-brand text-white">
           Mazhar'ın Sayfası
         </a>
 
@@ -39,7 +39,7 @@
         <div id="navbarMenu" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="anasayfa.html" class="nav-link active text-white">
+              <a href="http://webteknolojileriproje.infinityfreeapp.com" class="nav-link active text-white">
                 Anasayfa
               </a>
             </li>

@@ -112,7 +112,7 @@
 	
 	<main>
 
-		<div class="container" style="padding: %10;font-size: 130%">
+		<div class="container" style="padding: %10;font-size: 130%;margin-bottom: 5%">
 			
 			<?php
 
