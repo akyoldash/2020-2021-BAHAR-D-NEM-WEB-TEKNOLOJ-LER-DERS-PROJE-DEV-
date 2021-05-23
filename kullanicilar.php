@@ -1,4 +1,4 @@
 <?php
-$user = "123@sakarya.edu.tr";
-$pass = "123";
+$user = "ogrenci.mail@sakarya.edu.tr";
+$pass = "1234";
 ?>

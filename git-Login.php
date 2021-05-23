@@ -125,13 +125,13 @@
 					$_SESSION["user"] = $user;
 					$_SESSION["pass"] = $pass;
 			
-					echo("SİTEYE GİRİŞ YAPTINIZ HOŞGELDİNİZ !!");			
+					echo("Siteye başarılı bir şekilde giriş yaptınız. ");			
 				}
 			
 				else 
 				{
 					echo("Kullancı Adı veya Şifre Yanlış.<br>");
-					echo ("!!!TEKRAR DENEYİN!!!");
+					echo ("Lütfen tekrar deneyiniz");
 					header("Refresh: 1; url=login.php");
 				}
 		?>

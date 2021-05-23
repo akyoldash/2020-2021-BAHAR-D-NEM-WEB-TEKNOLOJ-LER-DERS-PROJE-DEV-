@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-
-    <!-- Responsive -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Ikon Kutuphanesi -->
     <link
@@ -23,21 +19,25 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
     <!-- Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap"
       rel="stylesheet"
     />
 
-    <!-- CSS -->
+    <!-- Css -->
     <link rel="stylesheet" href="style.css" />
 
-    <!--------------------------------->
     <title>Web Teknoloji Projesi</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top">
       <div class="container">
         <a href="anasayfa.html" class="navbar-brand text-white">
           Mazhar'ın Sayfası
@@ -47,14 +47,13 @@
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarCollapse"
+          data-target="#navbarMenu"
         >
-          <span class="navbar-toggler-icon"
-            ><i class="fas fa-ellipsis-v"></i
-          ></span>
+          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars"></i>
         </button>
 
-        <div id="navbarCollapse" class="collapse navbar-collapse">
+        <div id="navbarMenu" class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a href="anasayfa.html" class="nav-link active text-white">
@@ -101,85 +100,37 @@
         </div>
       </div>
     </nav>
-    <br><br>
-    <header>
-      <div class="bg-info text-light jumbotron balikcilar-jumbotron">
-        <div class="container">
-          <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">Başarılı</h1>
-          </div>
-        </div>
-      </div>
-    </header>
 
-    <main>
-      <div class="container">
-        <div class="row">
-          <script type="text/javascript">
-            function getParameterByName(name, url) {
-              if (!url) url = window.location.href;
-              name = name.replace(/[\[\]]/g, "\\$&");
-              var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-                results = regex.exec(url);
-              if (!results) return null;
-              if (!results[2]) return "";
-              return decodeURIComponent(results[2].replace(/\+/g, " "));
-            }
-
-            let name = getParameterByName("name");
-            let email = getParameterByName("email");
-            let message = getParameterByName("message");
-          </script>
-
-          <table class="table">
-            <thead class="table-info">
-              <tr>
-                <th>Mesajınız başarılı bir şekilde gönderilidi</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>İsminiz</td>
-                <td>
-                  <script>
-                    document.write(name);
-                  </script>
-                </td>
-              </tr>
-
-              <tr>
-                <td>E-Mail</td>
-                <td>
-                  <script>
-                    document.write(email);
-                  </script>
-                </td>
-              </tr>
-
-              <tr>
-                <td>Mesajınız</td>
-                <td>
-                  <script>
-                    document.write(message);
-                  </script>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </main>    
+    <div class="slider">
+      <h1>Dolmabahçe Sarayı</h1>
+      <p>
+        Dolmabahçe Sarayı, İstanbul, Beşiktaş'ta, Kabataş'tan Beşiktaş'a uzanan
+        Dolmabahçe Caddesi'yle İstanbul Boğazı arasında, 250.000 m²lik bir alan
+        üzerinde bulunan Osmanlı sarayı. Marmara Denizi'nden Boğaziçi'ne deniz
+        yoluyla girişte sol kıyıda, Üsküdar ve Kuzguncuk'ın karşısında yer alır.
+        İnşaatı 1843 yılında başlayıp 1856 yılında bitmiştir.
+        
+      </p>
+      <h3>Tarihi</h3>
+      <p>
+        Dolmabahçe Sarayı'nın bugün bulunduğu alan, bundan dört yüzyıl öncesine
+        kadar Osmanlı Kaptan-ı Derya'sının gemileri demirlediği, Boğaziçi'nin
+        büyük bir koyu idi. Geleneksel denizcilik törenlerinin yapıldığı bu koy
+        zamanla bir bataklık hâline geldi. 17. yüzyılda doldurulmaya başlanan
+        koy,[2] padişahların dinlenme ve eğlenceleri için düzenlenen bir
+        "hasbahçe"ye (hadayik-hassâ) dönüştürüldü. Bu bahçede çeşitli dönemlerde
+        yapılan köşkler ve kasırlar topluluğu, uzun süre "Beşiktaş Sahil Sarayı"
+        adıyla anıldı.
+      </p>
+    </div>
 
     <footer class="py-5 bg-info text-white text-center">
-		Web-Teknolojileri-Projesi © Mazhar Akyoldaş 2021
+      Web-Teknolojileri-Projesi © Mazhar Akyoldaş 2021
     </footer>
 
     <!-- BOOTSTRAP -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
-    <!-- JAVASCRIPT -->
   </body>
 </html>

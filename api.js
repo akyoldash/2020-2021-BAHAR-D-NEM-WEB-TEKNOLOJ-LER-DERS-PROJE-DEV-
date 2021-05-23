@@ -57,7 +57,9 @@ function fetchData(ID, num) {
     .then((data) => {
       console.log(data.overview);
       let video_key = data.results[0].key;
-      
+      if (num == "1") {
+        video_key = data.results[1].key;
+      }
       
       document.querySelector(`#film-${num}`).insertAdjacentHTML(
         "beforeend",
