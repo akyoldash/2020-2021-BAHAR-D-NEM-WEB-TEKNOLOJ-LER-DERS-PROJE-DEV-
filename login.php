@@ -102,11 +102,11 @@
 			<form action="git-Login.php" method="POST">
 				<div class="form-group">
 					<label for="email">Email</label>
-					<input type="text" name="email" class="form-control mail" placeholder="Email 'ogrenci.mail@sakarya.edu.tr'" required="required">
+					<input type="text" name="email" class="form-control mail" placeholder="Email 'ogrenci.b201210097@sakarya.edu.tr'" required="required">
 				</div>
 				<div class="form-group">
 					<label for="password">Password</label>
-					<input type="password" name="password" class="form-control pass" placeholder="Şifre '1234'" required="required">
+					<input type="password" name="password" class="form-control pass" placeholder="Şifre 'b201210097'" required="required">
 				</div>
 				<button class="btn btn btn-info" type="submit">Giriş</button>
 				<br><br><br>
